@@ -1,0 +1,28 @@
+{
+    "id": "ideas-sample-language",
+    "extension": "sample",
+    "name": "SampleDoc",
+    "formats": [
+        {
+            "format": "sample_format",
+            "editorModeId": "ace/mode/sample",
+            "_editorModeURI": "mode-sample.js",
+            "editorThemeId": "ace/theme/sample",
+            "_editorThemeURI": "theme-sample.js",
+            "checkLanguage": "false"
+        }
+    ],
+    "operations": [
+        {
+            "id": "test",
+            "name": "Test this document",
+            "data": {},
+            "_remoteExecution": "true",
+            "action": "function(operation, fileUri, result) {console.log(result);}"
+        }
+
+    ],
+    "templateProjects": null,
+    "templateFiles": null,
+    "inspectorLoader": "function(loader, format) {}"
+}
