@@ -24,5 +24,6 @@
     ],
     "templateProjects": null,
     "templateFiles": null,
-    "inspectorLoader": "function(loader, format) {}"
+    "inspectorLoader": "function(loader, format) {}",
+    "helpURI": "/views/help/index.jsp"
 }
